@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.menu {
+  list-style: none;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+.menu li {
+  position: relative;
+  display: inline-block;
+
+}
+
+.menu li:hover ul {
+  display: block;
+}
+ .menu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  background-color: burlywood;
+ }
+
+ .menu ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+ }
+
+ .menu ul li a:hover {
+  background-color: #ddd;
+ }
+
+ .menu li a{
+  text-decoration: none;
+  padding: 10px;
+  color: #24201f;
+ }
+
+ .menu li {
+
+color: aliceblue;
+ }
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  background-image: url(../steven/img/Crist.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.capa {
+  padding: 2rem;
+  max-width: 1300px;
+  margin: auto;
+}
+
+h1{
+    color: white;
+}
+
+h2, h3{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p{
+    color: white;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+li{
+    color: white;
+    text-align: justify;
+    margin-left: 22px;
+    margin-right: 10px;
+}
+
+.contenido-intro {
+    background-color: rgba(0, 0, 0, 0.322); /* Color de fondo blanco con transparencia */
+    padding: 20px; /* Espacio alrededor del texto */
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    border-radius: 16px;
+}
+
+.Videoo {
+  display: block;
+  margin: 0 auto;
+}
+
+.contenido-text {
+  text-align: center;
+}
+
+.contenido-img {
+  border-radius: 16px;
+  text-align: center;
+  
+}
+.text {
+   color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.conclusion {
+  margin-left: 50px;
+  margin-right: 50px;
+}
